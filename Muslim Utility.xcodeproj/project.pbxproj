@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F7559B32877834700C85BD1 /* Muslim_UtilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559B22877834700C85BD1 /* Muslim_UtilityApp.swift */; };
+		4F7559B52877834700C85BD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559B42877834700C85BD1 /* ContentView.swift */; };
+		4F7559B72877834900C85BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559B62877834900C85BD1 /* Assets.xcassets */; };
+		4F7559BA2877834900C85BD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559B92877834900C85BD1 /* Preview Assets.xcassets */; };
+		4F7559C5287783F600C85BD1 /* PrayerTimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559C4287783F600C85BD1 /* PrayerTimesView.swift */; };
+		4F7559C92877841A00C85BD1 /* IndividualTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559C82877841A00C85BD1 /* IndividualTimeView.swift */; };
+		4F7559CC2877843500C85BD1 /* PlainText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559CB2877843500C85BD1 /* PlainText.swift */; };
+		4F7559CF2877845100C85BD1 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559CE2877845100C85BD1 /* LaunchView.swift */; };
+		4F7559D12877845D00C85BD1 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559D02877845D00C85BD1 /* AboutView.swift */; };
+		4F7559DB2877848E00C85BD1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559DA2877848E00C85BD1 /* HomeView.swift */; };
+		4F7559DD2877849A00C85BD1 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559DC2877849A00C85BD1 /* PreferencesView.swift */; };
+		4F7559E22877851400C85BD1 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559E12877851400C85BD1 /* API.m */; };
+		4F7559E52877853300C85BD1 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559E42877853300C85BD1 /* APIRequests.swift */; };
+		4F7559E82877854700C85BD1 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559E72877854700C85BD1 /* Structs.swift */; };
+		4F7559EA2877855300C85BD1 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7559E92877855300C85BD1 /* Functions.swift */; };
+		4F7559EC28778A2600C85BD1 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559D22877847600C85BD1 /* Ubuntu-Bold.ttf */; };
+		4F7559ED28778A2800C85BD1 /* Ubuntu-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559D52877847600C85BD1 /* Ubuntu-BoldItalic.ttf */; };
+		4F7559EE28778A2E00C85BD1 /* Ubuntu-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559D82877847600C85BD1 /* Ubuntu-Italic.ttf */; };
+		4F7559EF28778A3000C85BD1 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559D42877847600C85BD1 /* Ubuntu-Light.ttf */; };
+		4F7559F028778A3200C85BD1 /* Ubuntu-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559D72877847600C85BD1 /* Ubuntu-LightItalic.ttf */; };
+		4F7559F128778A3400C85BD1 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559D32877847600C85BD1 /* Ubuntu-Medium.ttf */; };
+		4F7559F228778A3600C85BD1 /* Ubuntu-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559D62877847600C85BD1 /* Ubuntu-MediumItalic.ttf */; };
+		4F7559F328778A3800C85BD1 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F7559D92877847600C85BD1 /* Ubuntu-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F7559AF2877834700C85BD1 /* Muslim Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muslim Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7559B22877834700C85BD1 /* Muslim_UtilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Muslim_UtilityApp.swift; sourceTree = "<group>"; };
+		4F7559B42877834700C85BD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F7559B62877834900C85BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F7559B92877834900C85BD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F7559C4287783F600C85BD1 /* PrayerTimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimesView.swift; sourceTree = "<group>"; };
+		4F7559C82877841A00C85BD1 /* IndividualTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualTimeView.swift; sourceTree = "<group>"; };
+		4F7559CB2877843500C85BD1 /* PlainText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainText.swift; sourceTree = "<group>"; };
+		4F7559CE2877845100C85BD1 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		4F7559D02877845D00C85BD1 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		4F7559D22877847600C85BD1 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		4F7559D32877847600C85BD1 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		4F7559D42877847600C85BD1 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		4F7559D52877847600C85BD1 /* Ubuntu-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4F7559D62877847600C85BD1 /* Ubuntu-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4F7559D72877847600C85BD1 /* Ubuntu-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-LightItalic.ttf"; sourceTree = "<group>"; };
+		4F7559D82877847600C85BD1 /* Ubuntu-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Italic.ttf"; sourceTree = "<group>"; };
+		4F7559D92877847600C85BD1 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		4F7559DA2877848E00C85BD1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4F7559DC2877849A00C85BD1 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		4F7559DE287784F700C85BD1 /* Muslim Utility-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Muslim Utility-Bridging-Header.h"; sourceTree = "<group>"; };
+		4F7559E12877851400C85BD1 /* API.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
+		4F7559E32877851E00C85BD1 /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		4F7559E42877853300C85BD1 /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		4F7559E72877854700C85BD1 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		4F7559E92877855300C85BD1 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		4F7559EB2877874500C85BD1 /* Muslim-Utility-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Muslim-Utility-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F7559AC2877834700C85BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F7559A62877834700C85BD1 = {
+			isa = PBXGroup;
+			children = (
+				4F7559B12877834700C85BD1 /* Muslim Utility */,
+				4F7559B02877834700C85BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F7559B02877834700C85BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F7559AF2877834700C85BD1 /* Muslim Utility.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F7559B12877834700C85BD1 /* Muslim Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4F7559EB2877874500C85BD1 /* Muslim-Utility-Info.plist */,
+				4F7559C3287783A500C85BD1 /* API */,
+				4F7559C2287783A000C85BD1 /* Tabs */,
+				4F7559C12877839700C85BD1 /* Fonts */,
+				4F7559C02877838900C85BD1 /* Components */,
+				4F7559B22877834700C85BD1 /* Muslim_UtilityApp.swift */,
+				4F7559B42877834700C85BD1 /* ContentView.swift */,
+				4F7559B62877834900C85BD1 /* Assets.xcassets */,
+				4F7559B82877834900C85BD1 /* Preview Content */,
+				4F7559E92877855300C85BD1 /* Functions.swift */,
+			);
+			path = "Muslim Utility";
+			sourceTree = "<group>";
+		};
+		4F7559B82877834900C85BD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F7559B92877834900C85BD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F7559C02877838900C85BD1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4F7559C4287783F600C85BD1 /* PrayerTimesView.swift */,
+				4F7559C82877841A00C85BD1 /* IndividualTimeView.swift */,
+				4F7559CB2877843500C85BD1 /* PlainText.swift */,
+				4F7559CE2877845100C85BD1 /* LaunchView.swift */,
+				4F7559D02877845D00C85BD1 /* AboutView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4F7559C12877839700C85BD1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4F7559D22877847600C85BD1 /* Ubuntu-Bold.ttf */,
+				4F7559D52877847600C85BD1 /* Ubuntu-BoldItalic.ttf */,
+				4F7559D82877847600C85BD1 /* Ubuntu-Italic.ttf */,
+				4F7559D42877847600C85BD1 /* Ubuntu-Light.ttf */,
+				4F7559D72877847600C85BD1 /* Ubuntu-LightItalic.ttf */,
+				4F7559D32877847600C85BD1 /* Ubuntu-Medium.ttf */,
+				4F7559D62877847600C85BD1 /* Ubuntu-MediumItalic.ttf */,
+				4F7559D92877847600C85BD1 /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4F7559C2287783A000C85BD1 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				4F7559DA2877848E00C85BD1 /* HomeView.swift */,
+				4F7559DC2877849A00C85BD1 /* PreferencesView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		4F7559C3287783A500C85BD1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4F7559DE287784F700C85BD1 /* Muslim Utility-Bridging-Header.h */,
+				4F7559E12877851400C85BD1 /* API.m */,
+				4F7559E32877851E00C85BD1 /* API.h */,
+				4F7559E42877853300C85BD1 /* APIRequests.swift */,
+				4F7559E72877854700C85BD1 /* Structs.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F7559AE2877834700C85BD1 /* Muslim Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F7559BD2877834900C85BD1 /* Build configuration list for PBXNativeTarget "Muslim Utility" */;
+			buildPhases = (
+				4F7559AB2877834700C85BD1 /* Sources */,
+				4F7559AC2877834700C85BD1 /* Frameworks */,
+				4F7559AD2877834700C85BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muslim Utility";
+			productName = "Muslim Utility";
+			productReference = 4F7559AF2877834700C85BD1 /* Muslim Utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F7559A72877834700C85BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4F7559AE2877834700C85BD1 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 4F7559AA2877834700C85BD1 /* Build configuration list for PBXProject "Muslim Utility" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F7559A62877834700C85BD1;
+			productRefGroup = 4F7559B02877834700C85BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F7559AE2877834700C85BD1 /* Muslim Utility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F7559AD2877834700C85BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7559ED28778A2800C85BD1 /* Ubuntu-BoldItalic.ttf in Resources */,
+				4F7559BA2877834900C85BD1 /* Preview Assets.xcassets in Resources */,
+				4F7559B72877834900C85BD1 /* Assets.xcassets in Resources */,
+				4F7559F028778A3200C85BD1 /* Ubuntu-LightItalic.ttf in Resources */,
+				4F7559EE28778A2E00C85BD1 /* Ubuntu-Italic.ttf in Resources */,
+				4F7559EF28778A3000C85BD1 /* Ubuntu-Light.ttf in Resources */,
+				4F7559F128778A3400C85BD1 /* Ubuntu-Medium.ttf in Resources */,
+				4F7559EC28778A2600C85BD1 /* Ubuntu-Bold.ttf in Resources */,
+				4F7559F328778A3800C85BD1 /* Ubuntu-Regular.ttf in Resources */,
+				4F7559F228778A3600C85BD1 /* Ubuntu-MediumItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F7559AB2877834700C85BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7559E82877854700C85BD1 /* Structs.swift in Sources */,
+				4F7559C5287783F600C85BD1 /* PrayerTimesView.swift in Sources */,
+				4F7559D12877845D00C85BD1 /* AboutView.swift in Sources */,
+				4F7559CF2877845100C85BD1 /* LaunchView.swift in Sources */,
+				4F7559B52877834700C85BD1 /* ContentView.swift in Sources */,
+				4F7559EA2877855300C85BD1 /* Functions.swift in Sources */,
+				4F7559E22877851400C85BD1 /* API.m in Sources */,
+				4F7559E52877853300C85BD1 /* APIRequests.swift in Sources */,
+				4F7559DD2877849A00C85BD1 /* PreferencesView.swift in Sources */,
+				4F7559C92877841A00C85BD1 /* IndividualTimeView.swift in Sources */,
+				4F7559DB2877848E00C85BD1 /* HomeView.swift in Sources */,
+				4F7559CC2877843500C85BD1 /* PlainText.swift in Sources */,
+				4F7559B32877834700C85BD1 /* Muslim_UtilityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F7559BB2877834900C85BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F7559BC2877834900C85BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F7559BE2877834900C85BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Muslim Utility/Preview Content\"";
+				DEVELOPMENT_TEAM = 2798KX7HWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Muslim-Utility-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to get the prayer times for your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UJ.Muslim-Utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Muslim Utility/API/Muslim Utility-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4F7559BF2877834900C85BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Muslim Utility/Preview Content\"";
+				DEVELOPMENT_TEAM = 2798KX7HWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Muslim-Utility-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Used to get the prayer times for your location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "UJ.Muslim-Utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Muslim Utility/API/Muslim Utility-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F7559AA2877834700C85BD1 /* Build configuration list for PBXProject "Muslim Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7559BB2877834900C85BD1 /* Debug */,
+				4F7559BC2877834900C85BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F7559BD2877834900C85BD1 /* Build configuration list for PBXNativeTarget "Muslim Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F7559BE2877834900C85BD1 /* Debug */,
+				4F7559BF2877834900C85BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F7559A72877834700C85BD1 /* Project object */;
+}
